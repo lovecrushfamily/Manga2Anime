@@ -1,0 +1,28 @@
+[project]
+name = "manga2anime"
+version = "0.1.0"
+description = "Fanmade manga chapter to short black-and-white anime highlight MVP."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.125.0",
+  "imageio-ffmpeg>=0.5.1",
+  "openai>=1.93.0",
+  "pillow>=10.4.0",
+  "pypdfium2>=4.30.0",
+  "python-multipart>=0.0.10",
+  "uvicorn>=0.30.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2.0",
+  "ruff>=0.5.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["manga2anime*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

@@ -1,0 +1,12 @@
+.vibecode-backup*/
+.env
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+dist/
+*.tsbuildinfo
+outputs/
