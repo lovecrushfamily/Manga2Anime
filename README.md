@@ -1,6 +1,23 @@
 # Manga2Anime
 
-Fanmade studio tool that turns a short manga chapter into a short black-and-white anime-style cut with scene-by-scene human review.
+Turn manga pages into a short anime production cut with a real studio workflow: page coverage, character locking, keyframes, transition frames, Japanese voice/subtitle assets, QC, and human approval gates.
+
+<p align="center">
+  <img src="./demo.png" alt="Manga2Anime Studio Production Console showing scene assets, approval gates, and generated anime transition frames" width="100%" />
+</p>
+
+<p align="center">
+  <strong>Studio Production Flow v2</strong><br />
+  Upload a chapter, generate scene-by-scene, approve every key asset, and render the final cut only when the story coverage and QC gates pass.
+</p>
+
+## Why It Feels Like A Studio
+
+- Every uploaded page is mapped into a coverage manifest instead of being silently ignored.
+- Each scene gets storyboard review, a character bible, 2 keyframes, and transition frames.
+- The GUI shows real generated/source assets with approve, reject, regenerate, and finalize gates.
+- Dialogue is removed from frames and moved to Japanese subtitle/voice assets outside the artwork.
+- Identity lock prioritizes preserving the manga character over making a pretty-but-wrong frame.
 
 The current v2 flow is a staged production console:
 
